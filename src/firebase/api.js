@@ -25,9 +25,9 @@ import { v4 } from "uuid";
 //nombre de colecccion
 /* 
 const collectionName = "products"; 
-const collectionName = "cumpleTim";*/
-const collectionName = "cumpleJesus";
-
+const collectionName = "cumpleTim";
+const collectionName = "cumpleJesus";*/
+const collectionName = "argenisYkaty"
 //funcion que crea y guarda los documentos en la coleccion
 
 export const addProduct = (product, collectionName) => {

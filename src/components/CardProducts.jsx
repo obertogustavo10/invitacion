@@ -70,7 +70,7 @@ export default function CardProducts({ row, id, setCurrentID }) {
         </div>
         <Card.Text>{row.nombre}</Card.Text>
         <Card.Title>{row.confirmo ? 'confirma' : 'false'}</Card.Title>
-        <Card.Title>{row.noConfirmo? 'No va' : 'false'}</Card.Title>
+        <Card.Title>{row.noConfirmo? 'No va' : ''}</Card.Title>
         <Card.Title>{row.mensaje}</Card.Title>
       </Card.Body>
     </Card>

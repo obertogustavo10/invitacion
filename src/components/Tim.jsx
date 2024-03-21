@@ -210,6 +210,16 @@ const Tim = () => {
                 fontFamily:"Alex Brush"
               }}
             >
+             " Lo nuestro no fue casualidad, fue Dios quien cruzó nuestros caminos y nuestras vidas. " 
+            </p>
+            <p
+              style={{
+                fontSize: "20px",
+                textAlign: "justify",
+                textIndent: "30px",
+                fontFamily:"Alex Brush"
+              }}
+            >
              "  Más valen dos que uno, porque obtienen más fruto de su esfuerzo.
               Si caen, el uno levanta al otro. <b>Eclesiastés 4:9-12.</b>" 
             </p>

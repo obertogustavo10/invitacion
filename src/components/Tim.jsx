@@ -202,7 +202,7 @@ const Tim = () => {
               responsabilidad y entrega todo lo que Dios nos tiene preparado
               para nuestro futuro.
             </p>
-            <p
+ {/*            <p
               style={{
                 fontSize: "20px",
                 textAlign: "justify",
@@ -222,7 +222,7 @@ const Tim = () => {
             >
              "  Más valen dos que uno, porque obtienen más fruto de su esfuerzo.
               Si caen, el uno levanta al otro. <b>Eclesiastés 4:9-12.</b>" 
-            </p>
+            </p> */}
           </Col>
         </Row>
       </Container>
@@ -231,6 +231,43 @@ const Tim = () => {
           <img className="d-block w-100" src={Tim1} alt="First slide" />
         </Carousel.Item>
       </Carousel>
+      <Container style={{ padding: "10px", background: "#321905" }}>
+        <Row style={{ padding: "30px" }}>
+        <Col xs={12} md={12} lg={12} style={{ textAlign: "center" }}>s
+        <p
+              style={{
+                fontSize: "20px",
+                textAlign: "justify",
+                textIndent: "10px",
+                fontFamily:"Edu SA Beginner",
+                padding: "10px",
+                background: "#fff" ,
+                color: "#252525",
+                borderRadius:20,
+          
+              }}
+            >
+             " Lo nuestro no fue casualidad, fue Dios quien cruzó nuestros caminos y nuestras vidas. " 
+            </p>
+            <p
+              style={{
+                fontSize: "20px",
+                textAlign: "justify",
+                textIndent: "10px",
+                fontFamily:"Edu SA Beginner",
+                padding: "10px",
+                background: "#fff" ,
+                color: "#252525",
+                borderRadius:20,
+          
+              }}
+            >
+              "  Más valen dos que uno, porque obtienen más fruto de su esfuerzo.
+              Si caen, el uno levanta al otro. <b>Eclesiastés 4:9-12.</b>"
+            </p>
+            </Col>
+        </Row>
+        </Container>
       <Container style={{ padding: "30px", background: "#ebecea" }}>
         <Row
           style={{ padding: "20px", background: "#fff", paddingBottom: "40px" }}

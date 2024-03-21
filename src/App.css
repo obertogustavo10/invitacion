@@ -1,0 +1,43 @@
+
+ .background-image {
+  background-image: url('../src/assets/matrimonio2.jpg'); /* Reemplaza con la ruta de tu imagen */
+  background-size: 150%; /* Ajusta el tamaño de la imagen al contenedor */
+  background-position: center;
+  background-repeat: no-repeat; /* Coloca la imagen en el centro */
+  height: 100vh;
+}
+.button{
+  background: transparent; 
+  border-color: 1px solid #252525;
+  color: #252525;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: solid 1px #252525;
+  font-weight: 500;
+  
+}
+.button1{
+  background: transparent; 
+  border-color: 1px solid #252525;
+  color: #252525;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: solid 1px #252525;
+  font-weight: 500;
+  
+}
+.button:hover{
+  background: #252525; 
+  border-color: 1px solid #fff;
+  color: #fff;
+  }
+  .border-div {
+    width: 200px;
+    height: 100%;
+    border: 20px solid transparent; /* Ancho de los bordes */
+    border-image-source: url('../src/assets/bandera.jpg'); /* Ruta de la imagen */
+    border-image-slice: 200; /* Ancho de la imagen que se utilizará como borde */
+    border-image-repeat: round; /* Define cómo se repite la imagen en los bordes */
+  }
